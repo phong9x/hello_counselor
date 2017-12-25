@@ -1,0 +1,13 @@
+target/
+.classpath
+.idea/
+.project
+.settings/
+*.iml
+.DS_Store
+
+src/main/resources/META-INF/config/*.properties
+TelosysTools/*
+/src/main/resources/META-INF/config
+/src/main/resources/META-INF/config
+

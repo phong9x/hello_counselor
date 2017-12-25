@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Hello</title>
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;border:3px solid #26c6da;border-collapse: collapse;" width="720">
+	<tbody>
+		<tr>
+			<td style="background:#fff;">
+			<!-- Top -->
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding:20px 40px; font-size:1px; line-height:1px; background:#26c6da"><img src="${url}/theme/admin/assets/images/email/logo.png" alt="Hello 로고"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- //Top -->
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="width:40px;">&nbsp;</td>
+						<td style="padding:40px 0 50px;">
+						<!-- +++++++ Contents ++++++++ -->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td style="font:26px/40px Malgun Gothic; letter-spacing:-2px; color:#01579b;">[Hello] 회원 제재 안내
+									<table cellpadding="0" cellspacing="0" style="width:100%;">
+										<tbody>
+											<tr>
+												<td style="display:block; height:20px;"></td>
+											</tr>
+											<tr>
+												<td style="background:#26c6da; font-size:1px; line-height:1px; height:2px;"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding:30px 0 25px; font:16px/26px Malgun Gothic; color:#555555;">안녕하세요, Hello 입니다.</td>
+								</tr>
+								<tr>
+									<td style="padding-bottom:10px; font:16px/26px Malgun Gothic; color:#555555;"><strong>[회원명(${email})] 회원님이 계정이 아래와 같은 사유로 제재되었습니다.</strong><br />
+										1회 재제 시마다 일주일간 Hello 앱 서비스 이용이 불가하며 기 예약된 건에 대해서는 자동 취소됩니다.<br />제재 3회 초과 시에는 탈퇴 처리되오니 참고하시기 바랍니다.</td>
+								</tr>
+								<tr>
+									<td style="font:14px/22px Malgun Gothic; color:#666;"><!-- -->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<!-- 이용자 정보-->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="width:20px; font-size:1px; line-height:16px; ">
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul01.png" style="vertical-align:top;" /></td>
+												<td style="vertical-align:top; font:18px/25px Malgun Gothic; letter-spacing:-1px; color:#01579b;">제재 안내</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table cellpadding="0" cellspacing="0" style="width:100%; *width:auto; table-layout:fixed;border-top:2px #a5a5a5 solid; border-bottom:1px #a5a5a5 solid; word-break:break-all;border-collapse: collapse;">
+										<colgroup>
+											<col width="110px" />
+											<col />
+										</colgroup>
+										<tbody>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd;">이름 </th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid;">${fullname}</td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd; border-top:1px #e0e0e0 solid">E-mail</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid; border-top:1px #e0e0e0 solid">${email}</td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd; border-top:1px #e0e0e0 solid">제재 횟수</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid; border-top:1px #e0e0e0 solid">${banNumber}회</td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd; border-top:1px #e0e0e0 solid">제재 사유</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid; border-top:1px #e0e0e0 solid">
+													<ol style="padding:0 0 0 20px">
+														<li>${reason}</li>
+													</ol>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- //이용자 정보-->
+
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td style="width:16px; font-size:1px; line-height:7px; vertical-align:top;">
+												<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td style="display:block; height:8px;"></td>
+														</tr>
+													</tbody>
+												</table>
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul02.gif" style="vertical-align:top; margin-left:2px;" /></td>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">궁금하신 사항은 Hello 앱 내 [설정 > 1:1문의] 메뉴에서 문의 바랍니다.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- 감사합니다. -->
+								<tr>
+									<td>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">감사합니다.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- //감사합니다. -->
+							</tbody>
+						</table>
+						<!-- +++++++ //Contents ++++++++ -->
+						</td>
+						<td style="width:40px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!-- Footer -->
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding:20px; border-top:2px #e0e0e0 solid;border-bottom:1px #e0e0e0 solid; font:14px/23px Malgun Gothic; color:#666666;background:#f9f9f9">본 메일은 발신 전용이며 회신되지 않습니다.<br>본 메일과 관련한 문의는 고객센터로 문의하여 주시기 바랍니다.</td>
+					</tr>
+					<tr>
+						<td style="padding:20px 10px; font:12px/20px Malgun Gothic; color:#666666; text-align:center;background:#f9f9f9">
+						ⓒ AIMMED</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- //Footer --></td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<style charset="utf-8">/* See license.txt for terms of usage */
+
+
+</style></head>
+<body style="background-color: #ffffff;color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin: 0 auto; padding: 0;">
+
+
+
+<table style="color: #333;padding: 0;border-spacing: 0px;table-layout: fixed;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;background: #f1f1f1" align="center" border="0" cellpadding="0" cellspacing="0" >
+    <tbody>
+        <tr>
+            <td style="padding: 0;padding-top: 5px;margin: 0;">
+                <table style="background: #fff;padding: 10px 40px 10px 20px;" align="center" border="0" cellpadding="0" cellspacing="0" width="590">
+                    <tbody>
+                        <tr>
+                            <td style="" align="left" width="300">
+                                <a href="#">
+                                    <img src="http://hello.tramsdev.co.kr/theme/admin/assets/images/email/logo.png" width="88" height="38">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="padding: 0 20px;background: #fff;" align="center" border="0" cellpadding="0" cellspacing="0" width="590">
+                    <tbody>
+                        <tr>
+                            <td width="550" height="2" bgcolor="#00e7eb">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td style="padding: 0;margin: 0;">
+                <table style="background: #fff;font-size: 13px;padding: 30px 40px 0 40px;" align="center" border="0" cellpadding="0" cellspacing="0" width="590">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;color: #333;font-size: 20px;line-height: 24px;font-weight: bold;padding-bottom: 20px;" >[Hello] 임시 비밀번호 발송 </td>
+                        </tr>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 24px" >
+                                <p style="margin: 0;">안녕하세요. Hello 입니다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 24px" >
+                                <p style="margin-bottom: 0;">아래 임시 비밀번호로 Hello 앱에 접속하셔서 로그인해주세요.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0;margin: 0;">
+                <table style="background: #fff;font-size: 13px;padding: 30px 120px 0 120px;" align="center" border="0" cellpadding="0" cellspacing="0" width="590">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 34px;border: 1px solid #cdcdcd;border-right: none;background: #f3f3f3;text-align: center;" width="120">
+                                <p style="font-weight: bold;text-align: center;margin: 0;">임시 비밀번호</p>
+                            </td>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 34px;border: 1px solid #cdcdcd;" >
+                                <p style="padding-left: 10px;margin: 0;text-align: center;">${tmpPassword}</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0;margin: 0;">
+                <table style="background: #fff;font-size: 13px;padding: 30px 40px 0 40px;" align="center" border="0" cellpadding="0" cellspacing="0" width="590">
+                    <tbody>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 24px" >
+                                <p style="margin: 0;margin-top: 0px;margin-bottom: 0px;">임시 비밀번호로 로그인 후 비밀번호를 변경하셔야 합니다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 24px" >
+                                <p style="margin: 0;margin-top: 20px;margin-bottom: 10px;">감사합니다.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        <tr>
+            <td style="padding-top: 25px;padding-bottom: 10px;">
+                <table style="width: 600px;font-size: 13px;padding-right: 40px;" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                    <tbody>
+                        <tr>
+                            <td style="padding-left: 20px;padding-right: 10px;" align="right" width="100">
+                                <a href="#">
+                                    <img src="http://hello.tramsdev.co.kr/theme/admin/assets/images/email/images1.png" width="34" height="32">
+                                </a>
+                            </td>
+                            <td>
+                                <p style="margin: 0;font-size: 12px;color: #111;">본 메일은 발신 전용이며 회신되지 않습니다. 본 메일과 관련한 문의는 고객센터로 문의하여 주시기 바랍니다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px;padding-right: 10px;" align="right" width="100">
+                            </td>
+                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #333;line-height: 24px;" >
+                                <p style="margin: 0;margin-top: 20px;text-align: center;padding-right: 100px;">© AIMMED</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+</body>
+</html>

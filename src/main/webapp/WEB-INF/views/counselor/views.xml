@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="counselor_public_layout" template="/WEB-INF/views/counselor/layout/layout_public.jsp">
+        <put-attribute name="heading" value="/WEB-INF/views/counselor/layout/heading.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/counselor/layout/footer.jsp" />
+    </definition>
+
+    <definition name="counselor_auth_layout" template="/WEB-INF/views/counselor/layout/layout_auth.jsp">
+        <put-attribute name="heading" value="/WEB-INF/views/counselor/layout/heading.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/counselor/layout/menu.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/counselor/layout/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/counselor/layout/footer.jsp" />
+    </definition>
+
+    <definition name="counselor_talk" template="/WEB-INF/views/counselor/layout/layout_talk.jsp">
+
+    </definition>
+
+    <definition extends="counselor_public_layout" name="/public/*">
+        <put-attribute name="title" value="{1}" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/public/{1}.jsp" />
+    </definition>
+
+    <definition extends="counselor_auth_layout" name="/auth/*">
+        <put-attribute name="title" value="{1}" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/{1}.jsp" />
+    </definition>
+
+    <definition extends="counselor_auth_layout" name="/auth/*/*">
+        <put-attribute name="title" value="{1} - {2}" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/{1}/{2}.jsp" />
+    </definition>
+
+    <definition extends="counselor_talk" name="/auth/talk">
+        <put-attribute name="title" value="Face Talk" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/mindcheck_result">
+        <put-attribute name="title" value="MindCheck Result" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/mindcheck_result.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/self_diagnosis">
+        <put-attribute name="title" value="Self Diagnosis" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/self_diagnosis.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/user_info">
+        <put-attribute name="title" value="User Info" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/user_info.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/memoPopup">
+        <put-attribute name="title" value="Memo Info" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/memoPopup.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/psychological">
+        <put-attribute name="title" value="Psychologicel Examination" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/psychological.jsp" />
+    </definition>
+    
+    <definition extends="counselor_talk" name="/auth/talk/account_test">
+        <put-attribute name="title" value="Account Information" />
+        <put-attribute name="body" value="/WEB-INF/views/counselor/auth/talk/account_test.jsp" />
+    </definition>
+
+</tiles-definitions>

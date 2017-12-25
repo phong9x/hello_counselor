@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Hello</title>
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;border:3px solid #26c6da;border-collapse: collapse;" width="720">
+	<tbody>
+		<tr>
+			<td style="background:#fff;">
+			<!-- Top -->
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding:20px 40px; font-size:1px; line-height:1px; background:#26c6da"><img src="${url}/theme/admin/assets/images/email/logo.png" alt="Hello 로고"></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- //Top -->
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="width:40px;">&nbsp;</td>
+						<td style="padding:40px 0 50px;">
+						<!-- +++++++ Contents ++++++++ -->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td style="font:26px/40px Malgun Gothic; letter-spacing:-2px; color:#01579b;">[Hello] 심리상담사 등록 신청 결과 안내
+									<table cellpadding="0" cellspacing="0" style="width:100%;">
+										<tbody>
+											<tr>
+												<td style="display:block; height:20px;"></td>
+											</tr>
+											<tr>
+												<td style="background:#26c6da; font-size:1px; line-height:1px; height:2px;"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding:30px 0 10px; font:16px/26px Malgun Gothic; color:#555555;">안녕하세요, Hello 입니다.</td>
+								</tr>
+								<tr>
+									<td style="padding-bottom:10px; font:16px/26px Malgun Gothic; color:#555555;">Hello 심리상담사로 등록 신청해주셔서 감사합니다.<br><strong>Hello 심리상담사 신청 결과는 아래를 참고해주세요.</strong></td>
+								</tr>
+								<tr>
+									<td style="font:14px/22px Malgun Gothic; color:#666;"><!-- -->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- 문의 내용 -->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="width:20px; font-size:1px; line-height:16px; ">
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul01.png" style="vertical-align:top;" /></td>
+												<td style="vertical-align:top; font:18px/25px Malgun Gothic; letter-spacing:-1px; color:#01579b;">신청결과</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- 신청 결과 -->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table cellpadding="0" cellspacing="0" style="width:100%; *width:auto; table-layout:fixed;border-top:2px #a5a5a5 solid; border-bottom:1px #a5a5a5 solid; word-break:break-all;border-collapse: collapse;">
+										<colgroup>
+											<col width="110" />
+											<col />
+										</colgroup>
+										<tbody>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd;">신청 결과</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid;"><strong style="color:#000">승인</strong></td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; text-align:center; background:#eefcfd; border-top:1px #e0e0e0 solid">검토 일시</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;border-left:1px #e0e0e0 solid; border-top:1px #e0e0e0 solid">${createDate}</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- //신청 결과 -->									
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td style="width:16px; font-size:1px; line-height:7px; vertical-align:top;">
+												<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td style="display:block; height:8px;"></td>
+														</tr>
+													</tbody>
+												</table>
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul02.gif" style="vertical-align:top; margin-left:2px;" /></td>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">관리자가 상담 환경 모니터링 및 서비스 사용 안내를 위한 오리엔테이션 상담을 신청 예정입니다.</td>
+											</tr>
+											<tr>
+												<td style="width:16px; font-size:1px; line-height:7px; vertical-align:top;">
+												<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td style="display:block; height:8px;"></td>
+														</tr>
+													</tbody>
+												</table>
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul02.gif" style="vertical-align:top; margin-left:2px;" /></td>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">Hello 심리상담사 전용 페이지의 심리상담사 매뉴얼을 참고하여 오리엔테이션 상담을 준비해주시기 바랍니다.</td>
+											</tr>
+											<tr>
+												<td style="width:16px; font-size:1px; line-height:7px; vertical-align:top;">
+												<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td style="display:block; height:8px;"></td>
+														</tr>
+													</tbody>
+												</table>
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul02.gif" style="vertical-align:top; margin-left:2px;" /></td>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">오리엔테이션 상담이 완료된 후에 서비스를 이용할 수 있습니다.</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:30px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding:0 20px;background:#f5f5f5;">
+									<!-- 등록 순서-->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="width:20px; font-size:1px; line-height:16px; ">
+												<img alt="" src="${url}/theme/admin/assets/images/email/bul01.png" style="vertical-align:top;" /></td>
+												<td style="vertical-align:top; font:18px/25px Malgun Gothic; letter-spacing:-1px; color:#01579b;">등록 순서</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+											<tr>
+												<td><img src="${url}/theme/admin/assets/images/email/process.png" alt=""  style="text-align:center"/></td>
+											</tr>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+										<colgroup>
+											<col width="20" />
+											<col />
+										</colgroup>
+										<tbody>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; vertical-align:top">1.</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;">Hello 심리상담사 사이트(<a href="${counselorHome}" target="_blank">${counselorHome}</a>) 로그인 후 상담관리 > 스케줄 메뉴 접속<br/>
+												<span style="font:12px/20px Malgun Gothic; color:#666;">* 프리랜서 상담사의 경우 기본정보 수정에서 계좌정보 입력 및 관련 서류 사본 필수 등록 </span></td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; vertical-align:top">2.</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;">오리엔테이션 상담을 위한 상담 가능 스케줄 선택 <br/>
+												<span style="font:12px/20px Malgun Gothic; color:#666;">(관리자와의 일정 조율을 위해 영업일 기준 7일 이내 9:00~18:00 사이 최소 5개 이상 선택)</span></td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; vertical-align:top">3.</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;">관리자가 오리엔테이션 상담 예약</td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; vertical-align:top">4.</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;">예약된 시간에 실제 상담을 진행할 장소에서 오리엔테이션 상담 진행<br /><br />
+												<table border="0" cellpadding="0" cellspacing="0" style="border:1px solid #01579b;background:#fff;border-collapse: collapse;">
+													<tbody>
+														<tr>
+															<th style="padding:8px 10px; font:bold 12px/16px Malgun Gothic;color:#333;text-align:left;background:#01579b;color:#fff">오리엔테이션 상담 전 준비사항</th>
+														</tr>
+														<tr>
+															<td style="padding:5px 10px 5px; font:bold 12px/16px Malgun Gothic;color:#333;">- 크롬 브라우저 설치 (<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">https://www.google.com/chrome/browser/desktop/index.html)</a></td>
+														</tr>
+														<tr>
+															<td style="padding:0 10px 10px; font:bold 12px/16px Malgun Gothic;color:#333;">- 헤드셋, 마이크 등 음향 기기 준비</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+											<tr>
+												<th style="padding:8px 0; font:bold 14px/20px Malgun Gothic; letter-spacing:-1px; color:#333333; vertical-align:top">5.</th>
+												<td style="padding:8px 10px; font:14px/20px Malgun Gothic; color:#333333;">최종 등록 및 Hello 서비스 이용 시작 <span style="font:12px/20px Malgun Gothic; color:#666;">(오리엔테이션 상담 완료 익일부터 가능)</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- //등록 순서-->
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+										
+									</td>
+								</tr>
+								<tr>
+									<td>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="font:14px/20px Malgun Gothic; color:#333;">* 오리엔테이션 상담 예약 및 진행 방식은 Hello 내담자와의 상담 예약 및 진행 방식과 일치합니다.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- 감사합니다. -->
+								<tr>
+									<td>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="display:block; height:10px;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="padding-bottom:5px; vertical-align:top; font:14px/20px Malgun Gothic; color:#666;">감사합니다.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- //감사합니다. -->
+							</tbody>
+						</table>
+						<!-- +++++++ //Contents ++++++++ -->
+						</td>
+						<td style="width:40px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!-- Footer -->
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding:20px; border-top:2px #e0e0e0 solid;border-bottom:1px #e0e0e0 solid; font:14px/23px Malgun Gothic; color:#666666;background:#f9f9f9">본 메일은 발신 전용이며 회신되지 않습니다.<br>본 메일과 관련한 문의는 고객센터로 문의하여 주시기 바랍니다.</td>
+					</tr>
+					<tr>
+						<td style="padding:20px 10px; font:12px/20px Malgun Gothic; color:#666666; text-align:center;background:#f9f9f9">
+						ⓒ AIMMED</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- //Footer --></td>
+		</tr>
+	</tbody>
+</table>
+
+
+</body>
+</html>
